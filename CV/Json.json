@@ -1,0 +1,61 @@
+{
+  "name":"Wakana Sugihara",
+  "title":"IT administrator & programmer",
+  "contact info":{
+      "phone":0709644033 ,
+      "mail":"wakana.sugihara@gmail.com",
+      "adress":"Mölndal, Sweden"
+    }
+    "Education":{
+      [ {
+          "duration":"2025-01-", 
+          "school":"Yrkeshögskolan i Borås" ,
+          "course":"Frontend React",
+          "topics":[
+            "Agil projektmetodik",
+            "Användarupplevelse och interaktionsdesign",
+            "Apputveckling",
+            "Backend-programmering med Node.js",
+            "JavaScript ramverk",
+            "Webbprogrammering med JavaScript fördjupning" ,
+            "Webbprogrammering med JavaScript"  
+          ]
+
+        },
+        {
+          "duration":"2023-01-2024-11", 
+          "school": "Campus Mölndal",
+          "course":"Java Integration",
+          "topics":[
+            "Objektorienterad programmering i Java",
+            "Kvalitetssäkring i Java",
+            "Systemintegration",
+            "API:er och webservices",
+            "Molnintegration"
+          ]
+
+        },
+        {
+          "duration":, 
+          "school": ,
+          "course":,
+          "topics":,
+
+        }
+        {
+          "duration":, 
+          "school": ,
+          "course":,
+          "topics":,
+
+        }
+
+
+
+      ]
+
+
+    }
+
+
+}

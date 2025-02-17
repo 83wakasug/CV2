@@ -1,0 +1,174 @@
+/* Global Reset for margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+/* Ensures the body and html take up the full height and center content */
+html, body {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  min-height: 100%;
+}
+
+/* Hover effect for list item header */
+.li_header:hover {
+  background-color: rgb(240, 156, 156);
+}
+
+/* Red background color for li_1 class */
+.li_1 {
+  background-color: red;
+}
+
+/* Hover effect for submit button */
+.bt_submit:hover {
+  background-color: rgb(198, 245, 230);
+}
+
+/* Grid container for page layout */
+#gridcontainer {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: minmax(250px, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}
+
+/* Header section inside grid */
+#gridcontainer > header {
+  grid-area: header;
+}
+
+/* Styling for the header */
+header {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+/* Navigation list styling */
+.ul-nav {
+  list-style-type: none;
+  display: flex; 
+  flex-direction: row; /* Items are placed in a row (default direction) */
+  justify-content: flex-start; /* Aligns the items to the left side of the container */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Styling for list items in header */
+.li_header {
+  padding: 1%;
+  display: flex; /* Uses flexbox for arranging content within the list item */
+  align-items: center; /* Centers the content vertically within the list item */
+}
+
+/* Navigation link styling */
+.nav-link {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+}
+
+/* Footer section styling */
+footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(107, 131, 151);
+  display: flex; 
+  flex-direction: row; /* Aligns footer items in a row (default) */
+  justify-content: flex-start; /* Aligns footer content to the left */
+}
+
+/* Footer text margin */
+.footer_text {
+  margin-right: 5%; /* Adds space between footer text and other items */
+}
+
+/* Main container settings */
+.main_container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Form container settings */
+.form_container {
+  width: 60%;
+  height: auto;
+  display: flex; 
+  flex-direction: column; /* Aligns the form elements vertically */
+  justify-content: center; 
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+/* Submit button settings */
+.bt_submit {
+  width: 30%;
+  margin-top: 8%;
+  height: auto;
+  background-color: rgb(145, 226, 226);
+  border: none;
+  padding: 2%;
+  border-radius: 3%;
+}
+
+/* Styling for input fields */
+.input_field {
+  margin-bottom: 3%;
+}
+
+/* Button container centering */
+.button_container {
+  display: flex; 
+  justify-content: center; /* Centers buttons horizontally */
+  align-items: center; /* Centers buttons vertically */
+  height: 100%;
+  width: 100%;
+}
+
+/* Footer section with adjusted padding */
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(191, 199, 206);
+  display: flex;
+  flex-direction: row; /* Items are arranged horizontally */
+  justify-content: flex-start; /* Items aligned to the left */
+  padding: 1%;
+}
+
+/* Footer text styling */
+.footer_text {
+  margin-right: 5%;
+}
+
+/* Flexbox alignment for footer text */
+.footer_text p {
+  display: flex;
+  align-items: center; /* Vertically aligns the text items in the footer */
+  white-space: nowrap; /* Prevents the text from breaking into multiple lines */
+}
+
+/* Styling for icons */
+i {
+  font-size: 1.2em; /* Sets the icon size */
+}
+
+/* Link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block; /* Allows the link to be styled as a block-level element */
+}

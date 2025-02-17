@@ -1,0 +1,209 @@
+/* Global Reset for margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+/* Ensure the html element takes the full height and has a max width */
+html {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the page horizontally */
+}
+
+/* Body styling for layout with grid */
+body {
+  min-height: 100vh; 
+  margin: 0 auto; /* Centers the content horizontally */
+  display: grid; 
+  grid-template-rows: auto 1fr 1fr auto; /* Defines row heights */
+  grid-template-columns: 1fr; /* One column layout for the whole page */
+  gap: 0; /* Removes gaps between grid items */
+  height: 100%;
+}
+
+/* Styling for a left border line element */
+.line_left {
+  display: inline-block;
+  border-left: 5px solid rgb(255, 169, 8); 
+}
+
+/* Header and footer styling */
+header, footer {
+  background-color: #030000; 
+  color: white; 
+  text-align: center; 
+}
+
+/* Navigation list styling */
+.ul-nav {
+  list-style-type: none; /* Removes default list styling */
+  display: flex; 
+  flex-direction: row;  
+  justify-content: flex-start; /* Aligns items to the left */
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+
+/* Header list item styling */
+.li_header {
+  padding: 1%;
+  display: flex; 
+  align-items: center; 
+}
+
+/* Navigation link styling */
+.nav-link {
+  display: inline-block;
+  padding: 10px 15px; 
+  text-decoration: none; 
+  color: white;
+  background-color: transparent; 
+}
+
+/* Table styling */
+table {
+  width: 100%; 
+}
+
+/* Main container styling */
+main#container {
+  display: grid; 
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 0; /* Removes gap between grid items */
+  grid-column: 1 / -1; /* Ensures the main section spans the full width */
+  grid-row: 2 / 3; /* Places main content in the second row */
+  min-height: auto; /* Allows the content height to adjust based on its content */
+}
+
+/* Hover effect for header list item */
+.li_header:hover {
+  background-color: rgb(240, 156, 156); 
+}
+
+/* Top section styles (full width) */
+#top {
+  grid-column: 1 / -1; /* Spans across the full width */
+  grid-row: 1 / 3; /* Spans from the first to third row */
+  background-color: rgb(255, 190, 152); 
+  text-align: center; 
+  padding: 20px;
+  display: flex; /* Flexbox used for layout */
+  flex-direction: column; 
+}
+
+/* Left container (half of the screen) */
+#left {
+  grid-column: 1 / 2; /* Left side of the layout */
+  grid-row: 2 / 3; /* Positioned in the second row */
+  background-color: lightgray; 
+  padding: 20px;
+  height: auto; 
+}
+
+/* Right container (other half of the screen) */
+#right {
+  grid-column: 2 / 3; /* Right side of the layout */
+  grid-row: 2 / 3; /* Positioned in the second row */
+  background-color: white; 
+  padding: 20px;
+  height: auto; /* Adjusts height based on content */
+}
+
+/* Contact information section with flexbox for vertical arrangement */
+.div_contactInfo {
+  display: flex; 
+  flex-direction: column;
+  align-self: flex-end; 
+  text-align: left; 
+}
+
+/* Footer styling */
+footer {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(191, 199, 206); 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-start; 
+}
+
+/* Footer text margin */
+.footer_text {
+  margin-right: 5%; 
+}
+
+/* Table styling with spacing between rows */
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Adds 10px space between rows */
+}
+
+/* Table header and cell styling */
+th, td {
+  font-size: 0.9em; /* Reduces font size for table content */
+}
+
+/* Styling for a list item with red background */
+.li_1 {
+  background-color: red;
+}
+
+/* Adds bottom border to all table rows except the last one */
+tr:not(:last-child) td {
+  border-bottom: 10px solid transparent; /* Creates a gap between rows */
+}
+
+/* Footer text styling with flex alignment */
+.footer_text p {
+  display: flex; 
+  align-items: center; 
+  white-space: nowrap; /* Prevents text from wrapping onto the next line */
+}
+
+
+i {
+  font-size: 1.2em; /* Makes the icon a bit larger */
+}
+
+/* Link styling */
+a {
+  text-decoration: none; 
+  color: inherit; /* Inherits the text color */
+  display: inline-block; /
+}
+
+/* Responsive Design for screens smaller than 768px (mobile-friendly) */
+@media (max-width: 768px) {
+  body {
+    grid-template-rows: auto 1 fr 1fr 1fr auto; /* Adjusts the grid layout for smaller screens */
+    grid-template-columns: 1fr; /* Collapses columns into one single column */
+  }
+
+  /* Adjust top section for smaller screens */
+  #top {
+    grid-column: 1 / -1; /* Spans full width */
+    grid-row: 1/2;
+    padding: 10px; /* Reduces padding */
+  }
+
+  #left {
+    grid-column: 1 / -1; 
+    grid-row: 2/3;
+  }
+ #right {
+    grid-column:  1/ -1; 
+    grid-row: 3/4;
+  }
+
+
+  /* Hover effect for header items */
+  .li_header:hover {
+    background-color: rgb(240, 156, 156);
+  }
+
+}

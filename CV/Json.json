@@ -1,61 +1,84 @@
 {
-  "name":"Wakana Sugihara",
-  "title":"IT administrator & programmer",
-  "contact info":{
-      "phone":0709644033 ,
-      "mail":"wakana.sugihara@gmail.com",
-      "adress":"Mölndal, Sweden"
-    }
-    "Education":{
-      [ {
-          "duration":"2025-01-", 
-          "school":"Yrkeshögskolan i Borås" ,
-          "course":"Frontend React",
-          "topics":[
-            "Agil projektmetodik",
-            "Användarupplevelse och interaktionsdesign",
-            "Apputveckling",
-            "Backend-programmering med Node.js",
-            "JavaScript ramverk",
-            "Webbprogrammering med JavaScript fördjupning" ,
-            "Webbprogrammering med JavaScript"  
-          ]
-
-        },
-        {
-          "duration":"2023-01-2024-11", 
-          "school": "Campus Mölndal",
-          "course":"Java Integration",
-          "topics":[
-            "Objektorienterad programmering i Java",
-            "Kvalitetssäkring i Java",
-            "Systemintegration",
-            "API:er och webservices",
-            "Molnintegration"
-          ]
-
-        },
-        {
-          "duration":, 
-          "school": ,
-          "course":,
-          "topics":,
-
-        }
-        {
-          "duration":, 
-          "school": ,
-          "course":,
-          "topics":,
-
-        }
-
-
-
+  "name": "Wakana Sugihara",
+  "title": "IT administrator & programmer",
+  "contact_info": {
+    "phone": "0709644033",
+    "email": "wakana.sugihara@gmail.com",
+    "address": "Mölndal, Sweden"
+  },
+  "education": [
+    {
+      "duration": "2025-01-",
+      "school": "Yrkeshögskolan i Borås",
+      "course": "Frontend React",
+      "topics": [
+        "Agil projektmetodik",
+        "Användarupplevelse och interaktionsdesign",
+        "Apputveckling",
+        "Backend-programmering med Node.js",
+        "JavaScript ramverk",
+        "Webbprogrammering med JavaScript fördjupning",
+        "Webbprogrammering med JavaScript"
       ]
-
-
+    },
+    {
+      "duration": "2023-01 - 2024-11",
+      "school": "Campus Mölndal",
+      "course": "Java Integration",
+      "topics": [
+        "Objektorienterad programmering i Java",
+        "Kvalitetssäkring i Java",
+        "Systemintegration",
+        "API:er och webservices",
+        "Molnintegration"
+      ]
+    },
+    {
+      "duration": "2014-09 - 2016-01",
+      "school": "Yrkeshögskolan Kungsbacka",
+      "course": "Administratör IT-System",
+      "topics": [
+        "Hårdvara och operativsystem",
+        "CCNA/CCNA Security",
+        "Advanced Enterprise system administration",
+        "Advanced Linux security",
+        "Drift i virtuella miljöer",
+        "Windows Server-Systemadministration"
+      ]
+    },
+    {
+      "duration": "2002-04 - 2007-03",
+      "school": "Nanzan University, Japan",
+      "course": "Anthropology"
     }
-
-
+  ],
+  "work_experience": [
+    {
+      "duration": "2016-02 - Present",
+      "company": "AVL MTC Motortestcenter AB",
+      "title": "IT Specialist",
+      "responsibilities": [
+        "Developing internal programs using C# and automating tasks with PowerShell.",
+        "Providing IT support."
+      ]
+    },
+    {
+      "duration": "2024-05 - 2024-10",
+      "company": "Västra Götaland Region",
+      "title": "Internship",
+      "responsibilities": [
+        "Converting integration flows from MuleSoft to Apache Camel and Spring Boot.",
+        "Also involved in learning and implementing Kubernetes and Docker."
+      ]
+    },
+    {
+      "duration": "2007-05 - 2010-09",
+      "company": "Fuji Creative Corporation, Japan",
+      "title": "Office Administrator",
+      "responsibilities": [
+        "Administrator for the sales team.",
+        "Managed department inventory, prepared product samples for customers, issued invoices, and handled the shipment of film materials to other countries."
+      ]
+    }
+  ]
 }

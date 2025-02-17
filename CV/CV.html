@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="Stylesheet_CV.css">
     <link rel="stylesheet" href="StyleSheet_Common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  
   </head>
 
   <body>
@@ -24,10 +26,10 @@
     <main id="container">
       <section id="top" class="topContainer">
         <div class="photo_container">
-          <img class="my_pic" src="img/IMG_1009.JPG" alt="Profile pic">
+          <img class="my_pic" id="profile_pic" src="" alt="Profile pic">
           <div class="div_name">
-            <h1>Wakana Sugihara</h1>
-            <h3>IT administrator & programmer</h3>
+            <h1 id =fullname></h1>
+            <h3 id =curentTitle></h3>
           </div>
         </div>
        
@@ -36,9 +38,9 @@
         
         <div class="div_contactInfo">
           <h3 class="h_contactinfo">Contact Information</h3>
-          <h3><i class="fa-solid fa-phone"></i> 0709644033</h3>
-          <h3><i class="fa-solid fa-envelope"></i> wakana.sugihara@gmail.com</h3>
-          <h3><i class="fa-solid fa-house"></i> Mölndal, Sweden</h3>
+          <h3 id="phone"><i class="fa-solid fa-phone"></i></h3>
+          <h3 id="email"><i class="fa-solid fa-envelope"></i> </h3>
+          <h3 id="address"><i class="fa-solid fa-house"></i> </h3>
         </div>
       </section>
       
@@ -156,5 +158,11 @@
 
     <footer class="footContainer" id="footer"></footer>
     <script src="./script.js"></script>
+    <script src="./CV.js"></script>
+    <script type="text/javascript" src="CV.json"> </script>
+    <script>
+            fetchData();
+    </script>
+ 
   </body>
 </html>

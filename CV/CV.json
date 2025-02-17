@@ -1,5 +1,6 @@
 {
   "name": "Wakana Sugihara",
+  "profile_pic":"img/IMG_1009.JPG",
   "title": "IT administrator & programmer",
   "contact_info": {
     "phone": "0709644033",
@@ -8,10 +9,10 @@
   },
   "education": [
     {
-      "duration": "2025-01-",
-      "school": "Yrkeshögskolan i Borås",
-      "course": "Frontend React",
-      "topics": [
+      "Duration": "2025-01-",
+      "School": "Yrkeshögskolan i Borås",
+      "Course": "Frontend React",
+      "Learned topics": [
         "Agil projektmetodik",
         "Användarupplevelse och interaktionsdesign",
         "Apputveckling",
@@ -22,10 +23,10 @@
       ]
     },
     {
-      "duration": "2023-01 - 2024-11",
-      "school": "Campus Mölndal",
-      "course": "Java Integration",
-      "topics": [
+      "Duration": "2023-01 - 2024-11",
+      "School": "Campus Mölndal",
+      "Course": "Java Integration",
+      "Learned topics": [
         "Objektorienterad programmering i Java",
         "Kvalitetssäkring i Java",
         "Systemintegration",
@@ -34,10 +35,10 @@
       ]
     },
     {
-      "duration": "2014-09 - 2016-01",
-      "school": "Yrkeshögskolan Kungsbacka",
-      "course": "Administratör IT-System",
-      "topics": [
+      "Duration": "2014-09 - 2016-01",
+      "School": "Yrkeshögskolan Kungsbacka",
+      "Course": "Administratör IT-System",
+      "Learned topics": [
         "Hårdvara och operativsystem",
         "CCNA/CCNA Security",
         "Advanced Enterprise system administration",
@@ -47,35 +48,35 @@
       ]
     },
     {
-      "duration": "2002-04 - 2007-03",
-      "school": "Nanzan University, Japan",
-      "course": "Anthropology"
+      "Duration": "2002-04 - 2007-03",
+      "School": "Nanzan University, Japan",
+      "Course": "Anthropology"
     }
   ],
   "work_experience": [
     {
-      "duration": "2016-02 - Present",
-      "company": "AVL MTC Motortestcenter AB",
-      "title": "IT Specialist",
-      "responsibilities": [
+      "Duration": "2016-02 - Present",
+      "Company": "AVL MTC Motortestcenter AB",
+      "Title": "IT Specialist",
+      "Responsibilities": [
         "Developing internal programs using C# and automating tasks with PowerShell.",
         "Providing IT support."
       ]
     },
     {
-      "duration": "2024-05 - 2024-10",
-      "company": "Västra Götaland Region",
-      "title": "Internship",
-      "responsibilities": [
+      "Duration": "2024-05 - 2024-10",
+      "Company": "Västra Götaland Region",
+      "Title": "Internship",
+      "Responsibilities": [
         "Converting integration flows from MuleSoft to Apache Camel and Spring Boot.",
         "Also involved in learning and implementing Kubernetes and Docker."
       ]
     },
     {
-      "duration": "2007-05 - 2010-09",
-      "company": "Fuji Creative Corporation, Japan",
-      "title": "Office Administrator",
-      "responsibilities": [
+      "Duration": "2007-05 - 2010-09",
+      "Company": "Fuji Creative Corporation, Japan",
+      "Title": "Office Administrator",
+      "Responsibilities": [
         "Administrator for the sales team.",
         "Managed department inventory, prepared product samples for customers, issued invoices, and handled the shipment of film materials to other countries."
       ]

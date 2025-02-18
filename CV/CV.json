@@ -1,6 +1,7 @@
 {
   "name": "Wakana Sugihara",
   "title": "IT administrator & programmer",
+  "profile_pic":"img/IMG_1009.JPG",
   "contact_info": {
     "phone": "0709644033",
     "email": "wakana.sugihara@gmail.com",
@@ -50,7 +51,12 @@
       "duration": "2002-04 - 2007-03",
       "school": "Nanzan University, Japan",
       "course": "Anthropology",
-      "topics": " "
+      "topics": ["Archaeology",
+      "Linguistics",
+      "Intercultural Communication",
+      "Regional Culture and History",
+      " Social Anthropology"
+    ]
     }
   ],
   "work_experience": [

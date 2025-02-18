@@ -5,9 +5,7 @@ function fetchData(){
 
     return response.json();
 
-  })
-
-  .then(function(data){
+  }).then(function (data){
 
     document.getElementById("profile_pic").src = data.profile_pic;
     document.getElementById("fullname").innerHTML=data.name;
@@ -25,35 +23,31 @@ function fetchData(){
     
     if(count >0){
 
-      for(let x; x<count; x++){
+      forEach(edu in educationList){
         let tr = document.createElement("tr");
 
-        foreach((educationList)=>{
-
-            // how to add attribute https://www.quora.com/Can-you-create-an-element-in-JS-with-an-ID-or-a-class
-        let tdDuration = createElement("td");
-        tdDuration.setAttribute("class","duration");
-
-        let tdschool = createElement("td");
-        tdschool.setAttribute("class","school");
-
-        let tdcourse = createElement("td");
-        tdcourse.setAttribute("class","course");
-        
-        let tdtopics = createElement("td");
-        tdtopics.setAttribute("class","topics");
-        tdtopics.setAttribute("id","topic")
+            createElement("duration",tr,edu.duration);
+            createElement("school",tr,text);
+            createElement("course",tr,edu.topics);
+            createElement("topics",tr,edu.topics);
+           
 
         let topicsCount =    data.education.topics.count;
        
-        if(topicsList >0){
+        if(topicsCount >0){
           
           let ul = document.createElement("ul");
-          let list= data.education.topics;
+          ul.setAttribute("id","ul_topics");
+
+          let list= edu.topics;
+          
           foreach((list )=>{
               let li =createElement("li");
-              document.create
-
+              li.setAttribute("id",li_topics);
+              li.textContent=list.topics;
+        
+              ul.append(li);
+      
 
           })
 
@@ -67,28 +61,22 @@ function fetchData(){
 
 
 
-      })
+        })
 
     
 
         
 
 
-      }
-       
-        
-
-     
+        };
+      
 
 
-      );
+function createElement(id,tr,text){
+  let td = createElement("td");
+  td.setAttribute("class",id);
+  td.setAttribute("id",id);
+  td.textContent=text;
+  tr.append(td);
 
-    }
-
-
-  }
-)
 }
-
-
-

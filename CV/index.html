@@ -9,7 +9,7 @@
   
   <body>
     
-    <div id = container>
+    <div id = "container">
     <header class="header">
       <nav class="top-nav"> 
         <ul class="ul-nav">
@@ -46,38 +46,7 @@
       </div>
       
       <div class="botom_container">
-      <section class="project-section">
-        <div  class="project project1">
-          <h3 class="project_header">Japanese learning program</h5>
-          <p class="project_description"> Help children learn Japanese characters called Hiragana and Katakana in a fun and engaging way. The project is built with C# in Unity. </p>
-          <img class="image_for_project_1" src="img/JapaneseLarningProgram.png" alt="img_japanese_larning">
-          <button  class="bt-link"  onclick="window.location.href='https://github.com/83wakasug/JapaneseLarningProgram.git'"> link </button>
-        </div>
-
-        <div  class="project project2">
-          <h3 class="project_header" >Candy Inventory backend</h2>
-          <p class="project_description">The Candy Application is a simple web application built with Spring Boot.
-
-            The Candy API makes it easy for you to handle candy information </p>
-          <img class="image_for_project_2" src="img/CandyBackend.png">
-          <button  class="bt-link"  onclick="window.location.href='https://github.com/83wakasug/Candy.git'"> link </button>
-        </div>
-
-        <div  class="project project1">
-          <h3 class="project_header">Candy Inventory frontend</h2>
-          <p class="project_description">The Candy Application is a simple web application built with Spring Boot, designed to manage and display information about candies. </p>
-          <img class="image_for_project_1" src="img/candyfrontend.png">
-          <button  class="bt-link"  onclick="window.location.href='https://github.com/83wakasug/CandyFrontend.git'"> link </button>
-        </div>
-        
-        <div  class="project project2">
-          <h3 class="project_header">JokeGen Client</h2>
-          <p class="project_description">he application provides functionality for managing jokes and authors through a web interface. Users can view, create, edit, and delete jokes, as well as manage authors.</p>
-          <img class="image_for_project_2" src="img/Jokejencode.png">
-         
-          <button  class="bt-link"  onclick="window.location.href='https://github.com/83wakasug/JokeGenClient.git'"> link </button>
-      
-        </div>
+      <section id="project-section"  class="project-section">
     
       </section>
     </div>    
@@ -87,7 +56,10 @@
 
   </div>
     <script src="./script.js"></script>
-    
+    <script src="./Script_index.js"></script>
+    <script>
+       GetDataFromGithub();
+    </script>
   </body>
 
 

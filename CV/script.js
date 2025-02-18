@@ -6,4 +6,3 @@ fetch("footer.html")
 .then((response) => response.text())
 .then((data) => document.querySelector("#footer").innerHTML = data);
 
-//reference https://wand.witchserver.jp/archives/46

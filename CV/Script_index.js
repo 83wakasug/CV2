@@ -1,4 +1,4 @@
-//https://qiita.com/hukuryo/items/5c3e428f6620f991ade9
+//reference how to connect to APIhttps://qiita.com/hukuryo/items/5c3e428f6620f991ade9
 
 
 
@@ -51,7 +51,7 @@ function getDataFromAPI(data, classname) {
 
   let p = document.createElement("p");
   p.className ="project_description";
-  p.innerHTML =  "Description: " + data.description + "<br>" +
+  p.innerHTML = "<br>" +data.description + "<br>" +"<br>" +
   "Language: " + data.language + "<br>"
   
   let button = document.createElement("button");

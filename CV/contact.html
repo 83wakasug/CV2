@@ -26,16 +26,19 @@
             <form class="form_container">
           
               <label for="fname">First Name</label>
-              <input class="input_field"type="text" id="fname" name="firstname" placeholder="Your name.">
+              <input id="input_fname" class="input_field"type="text" id="fname" name="firstname" placeholder="Your name.">
           
               <label for="lname">Last Name</label>
-              <input class="input_field"  type="text" id="lname" name="lastname" placeholder="Your last name.">
+              <input id="input_lname" class="input_field"  type="text" id="lname" name="lastname" placeholder="Your last name.">
           
           
               <label for="subject">Subject</label>
-              <textarea  class="input_field" name="subject" placeholder="Write something." style="height:200px"></textarea>
-              <div class="button_container">
-                <input class="bt_submit" type="submit" value="Submit">
+              <textarea  id="input_message" class="input_field" name="subject" placeholder="Write something." style="height:200px"></textarea>
+              
+              <div id="warning"></div>
+              <div id="container" class="button_container">
+              
+                <input id="submit"class="bt_submit" type="submit" value="Submit">
               </div>
             </form>
           
@@ -45,6 +48,7 @@
 
     </div>
     
-    <script src="./script.js"></script>
+    <script src="./script.js"></script> 
+    <script src="./Script_contact.js"></script>
   </body>
 </html>

@@ -25,6 +25,7 @@ function fetchData() {
        * https://tcd-theme.com/2022/07/javascript-dom-textcontent.html
        */
       if (educationList.length > 0) {
+        
         educationList.forEach(edu => {
           let tr = document.createElement("tr");
 
@@ -91,7 +92,7 @@ function fetchData() {
     .catch(error => console.error("Error fetching data:", error));
 }
 
-// function for create table
+// function for create td and its text inside. 
 function createtd(tr, text) {
   let td = document.createElement("td");
   td.textContent = text;

@@ -28,9 +28,9 @@ This project is a personal website for Wakana Sugihara. The website contains the
 2. Navigate to the project directory:   
   ```bash
 cd your-repository
+ ```
 
-### Developer
-- wakana Sugihara
+
 
 
 

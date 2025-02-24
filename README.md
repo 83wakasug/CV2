@@ -1,3 +1,6 @@
+
+
+```markdown
 # Wakana Sugihara - CV
 
 ## Overview
@@ -24,14 +27,18 @@ This project is a personal website for Wakana Sugihara. The website contains the
 1. Clone the project repository:
    ```bash
    git clone https://github.com/83wakasug/CV2.git
+   ```
 
 2. Navigate to the project directory:   
-  ```bash
-  cd your-repository
- ```
+   ```bash
+   cd CV2
+   ```
+
+### Developer
+- Wakana Sugihara 
+```
 
 
- ### Developer
 
 
 

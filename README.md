@@ -1,6 +1,4 @@
 
-
-```markdown
 # Wakana Sugihara - CV
 
 ## Overview
@@ -36,7 +34,7 @@ This project is a personal website for Wakana Sugihara. The website contains the
 
 ### Developer
 - Wakana Sugihara 
-```
+
 
 
 

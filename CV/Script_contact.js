@@ -12,7 +12,7 @@ document.getElementById("submit").addEventListener("click", function(event) {
 
 
   if (firstName === "" || lastName === "" || message === "") {
-    div_warning.innerHTML="<p>Please input all fields</p>";
+    div_warning.innerHTML="<p class = 'warning'>Please input all fields</p>";
   }
 });
 

@@ -173,9 +173,9 @@ a {
   display: inline-block; /* Allows the link to be styled as a block-level element */
 }
 
-p{
+.warning{
    
      color:red;
-     text-align: center;
+     text-align: center;;
 
 }
